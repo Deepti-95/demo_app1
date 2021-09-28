@@ -104,18 +104,7 @@ class _TextFieldsState extends State<TextFields>
                           }
 
                         },
-                       /* validator: (value) {
-                          RegExp regExp = RegExp(Strings.pattern);
-                          if (value.isEmpty) {
-                            return "* Required";
-                          }
-                          else if (email.isNotEmpty && !regExp.hasMatch(email.toString().trim()))
-                          {
-                            return  "Invalid Email";
-                          }
-                          else
-                            return null;
-                        },*/
+
 
                         // onSaved: (value) => _email = value,
 
@@ -168,11 +157,6 @@ class _TextFieldsState extends State<TextFields>
                           print(password.toString());
 
 
-                         /* else if (email.isNotEmpty && !regExp.hasMatch(email.toString().trim()))
-                          {
-                            return  "Invalid Email";
-                          }*/
-
 
       if (emailController.text.isEmpty) {
         setState(() {
@@ -195,18 +179,7 @@ class _TextFieldsState extends State<TextFields>
       }
 
 
-      /*   else if(addressController.text == null || emailController.text.trim() == '')
-                             {
-                               setState(() {
-                                 _addressErrorMsg = 'Please enter Address';
-                               });
-                             }
-                           else if(mobilenoController.text == null || mobilenoController.text.trim() == '')
-                             {
-                               setState(() {
-                                 _mobilenoErrorMsg = 'Please enter Mobile no.';
-                               });
-                             }*/
+
 
 
         else if(_passwordErrorMsg =='Please enter password')
@@ -225,36 +198,7 @@ class _TextFieldsState extends State<TextFields>
                             );
 
 
-                          //
-                          // if (_formKey.currentState.validate()) {
-                          //   _formKey.currentState.save();
-                          //   if (email.isEmpty || email == null) {
-                          //     print(email);
-                          //
-                          //     return "pls enter";
-                          //   }
-                          //
-                          //   else if (password.isEmpty) {
-                          //     print('password checking');
-                          //     return "pls enter password";
-                          //   }
-                          //   else if (address.isEmpty) {
-                          //     print('address checking');
-                          //     return "pls enter address";
-                          //   }
-                          //   else if (mobileno.isEmpty) {
-                          //     return 'pls enter mobile no';
-                          //   }
-                          //   else {
-                          //     return 'getting error';
-                          //   }
-                          //
-                          //
-                          //   Navigator.push(
-                          //     context,
-                          //     MaterialPageRoute(builder: (context) => Home()),
-                          //      );
-                          // }
+
                         }
                     )
                       )

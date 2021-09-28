@@ -19,16 +19,19 @@ class _HomeState extends State<Home> {
         title: Text("Home Screen"),
         centerTitle: true,
       ),
-        body: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Center(
-              child: Text(
-                'HOME  SCREEN'
+        body: Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Center(
+                child: Text(
+                  'HOME  SCREEN'
+                ),
               ),
-            ),
 
-          ],
+            ],
+          ),
         ),
     );
   }
