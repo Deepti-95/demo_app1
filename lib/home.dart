@@ -29,7 +29,7 @@ class _HomeState extends State<Home> {
                   'HOME  SCREEN'
                 ),
               ),
-
+              Text('Home Files'),
             ],
           ),
         ),
