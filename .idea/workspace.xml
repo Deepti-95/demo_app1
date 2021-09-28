@@ -28,7 +28,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0fac9b7-7332-42d9-8454-eeb9f1bc8b53" name="Default Changelist" comment="'remove extra padding'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,10 +120,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="'remove extra padding'" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="121" key="Vcs.Push.Dialog.v2" timestamp="1632823970939">
+    <state x="559" y="251" key="#Notifications" timestamp="1632825279999">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="283" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1632823970939" />
+    <state x="559" y="251" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1632825279999" />
+    <state x="283" y="121" key="Vcs.Push.Dialog.v2" timestamp="1632825250624">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="283" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1632825250624" />
     <state x="466" y="302" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632824040971">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
