@@ -28,8 +28,7 @@ class _TextFieldsState extends State<TextFields>
     super.initState();
     emailController = TextEditingController();
     passwordController = TextEditingController();
-    addressController = TextEditingController();
-    mobilenoController = TextEditingController();
+
 
   }
 
@@ -41,8 +40,7 @@ class _TextFieldsState extends State<TextFields>
     passwordController.clear();
     emailController.dispose();
     passwordController.dispose();
-    addressController.dispose();
-    mobilenoController.dispose();
+
 
 
   }
@@ -106,7 +104,7 @@ class _TextFieldsState extends State<TextFields>
                         },
 
 
-                        // onSaved: (value) => _email = value,
+
 
 
                       ),
@@ -136,8 +134,6 @@ class _TextFieldsState extends State<TextFields>
                               _passwordErrorMsg = 'Please enter password';
                             });
                           }
-
-
 
                         },
                       ),
@@ -244,11 +240,4 @@ allValidation(BuildContext context, email, password,address, mobileno) {
     print("I am getting Error");
   }
 
-}
-void showSnackbar(context, text) {
-  ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-    backgroundColor: Colors.red,
-    content: Text(text),
-    duration: const Duration(seconds: 4),
-  ));
 }
